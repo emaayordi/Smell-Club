@@ -438,3 +438,31 @@ h1, h2, h3 {
     border-bottom: 1px solid rgba(200, 169, 106, 0.1);
     padding: 6px 0;
 }
+/* ==========================================================================
+   CORRECCIÓN Y ANIMACIÓN DEL MENÚ MÓVIL
+   ========================================================================== */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: flex !important; /* Fuerza a que use flex en vez de ocultarse */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(15, 15, 15, 0.98);
+        border-bottom: 1px solid rgba(200, 169, 106, 0.2);
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s ease;
+    }
+    
+    .nav-menu.active {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
