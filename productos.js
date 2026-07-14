@@ -341,4 +341,4 @@ const productos = [
     imagen: "lovely-cherie.jpg",
     linkWhatsApp: "https://wa.me/59894055919?text=Hola!%20Quiero%20el%20perfume%20Lovely%20Cherie"
 }
-];
+] ;
