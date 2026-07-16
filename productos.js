@@ -649,15 +649,6 @@ const productos = [
     linkWhatsApp: "https://wa.me/59894055919?text=Hola%21%20Quiero%20el%20perfume%20Yara%20Tous"
 },
 {
-    id: "perfume-mayar",
-    nombre: "Mayar",
-    marca: "Lattafa",
-    tipo: "completo",
-    precio: 2299,
-    imagen: "mayar.jpg",
-    linkWhatsApp: "https://wa.me/59894055919?text=Hola%21%20Quiero%20el%20perfume%20Mayar"
-},
-{
     id: "perfume-mayar-natural-intense",
     nombre: "Mayar Natural Intense",
     marca: "Lattafa",
@@ -785,7 +776,8 @@ const productos = [
 },
 {
     id: "perfume-atlas",
-    nombre: "Lattafa",
+    nombre: "Atlas",
+    marca: "Lattafa",
     tipo: "completo",
     precio: 2299,
     imagen: "atlas.jpg",
