@@ -3,13 +3,6 @@ const productos = [
     // DECANTS (Solo 5ml y 10ml)
     // ==========================================
     
-    <div class="buscador">
-    <input
-        type="text"
-        id="buscador"
-        placeholder="🔍 Buscar perfumes..."
-    >
-</div>
     {
         id: "decant-vulcan",
         nombre: "Vulcan Feu",
